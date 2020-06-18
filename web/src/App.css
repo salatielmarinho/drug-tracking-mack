@@ -1,0 +1,36 @@
+:root {
+  --primary-color: #34CB79;
+  --title-color: #322153;
+  --text-color: #6C6C80;
+}
+
+:root-modal{
+position: absolute;
+width: 1440px;
+height: 820px;
+left: 0px;
+top: 0px;
+background: #0E0A14;
+opacity: 0.95;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #F0F0F5;
+  -webkit-font-smoothing: antialiased;
+  color: var(--text-color);
+}
+
+body, input, button {
+  font-family: Roboto, Arial, Helvetica, sans-serif;
+}
+
+h1, h2,  h3, h4, h5, h6 {
+  color: var(--title-color);
+  font-family: Ubuntu;
+}
